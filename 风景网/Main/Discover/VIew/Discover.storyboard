@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JE2-qY-4Nv">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Base Nav Controller-->
+        <scene sceneID="Q7E-gX-x2a">
+            <objects>
+                <navigationController id="JE2-qY-4Nv" customClass="BaseNavController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QSb-dm-d6I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ynn-lw-UPv" kind="relationship" relationship="rootViewController" id="8rc-uG-ucP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3y-Sa-fMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-352" y="314"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="tXN-V0-brT">
+            <objects>
+                <viewController id="Ynn-lw-UPv" customClass="DiscoverViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="amf-TL-Hyf"/>
+                        <viewControllerLayoutGuide type="bottom" id="pXR-WT-Zox"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8hw-tM-uRl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="发现" id="M5K-a3-B7e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jm-Vi-iQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="285"/>
+        </scene>
+    </scenes>
+</document>
